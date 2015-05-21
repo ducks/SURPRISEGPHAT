@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          SURPRISEGPHAT
-// @namespace     http://www.rjgoldsborough
+// @namespace     http://www.rjgoldsborough.com
 // @description   SURPRISEGPHATONEVERYPAGE
 // @include       *
 // @grant         none
@@ -8,7 +8,7 @@
 
 var div = document.createElement('div');
 div.className = "surprise-gphat";
-div.style.backgroundImage = "url(https://www.runscope.com/static/img/public/customer-portrait-keenio.png)"
+div.style.backgroundImage = "url(https://www.runscope.com/static/img/public/customer-portrait-keenio.png)";
 div.style.position = "fixed";
 div.style.right = "15%";
 div.style.bottom = "0";
